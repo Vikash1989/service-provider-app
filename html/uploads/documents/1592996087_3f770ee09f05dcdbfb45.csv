@@ -1,0 +1,104 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:3306
+-- Generation Time: Jun 11, 2020 at 05:05 AM
+-- Server version: 5.7.23
+-- PHP Version: 7.2.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `ci-news`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`id`, `name`, `email`, `password`) VALUES
+(1, 'Vikash', 'vikash@gmail.com', '6773d0a1157c0259129a5d91bc0253c4'),
+(2, 'Admin', 'admin@gmail.com', 'e64b78fc3bc91bcbc7dc232ba8ec59e0');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `service-providers`
+--
+
+CREATE TABLE `service-providers` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `company` varchar(255) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `address` text NOT NULL,
+  `services` varchar(255) NOT NULL,
+  `comment` text NOT NULL,
+  `logo` varchar(255) NOT NULL,
+  `is_approved` tinyint(1) NOT NULL DEFAULT '0',
+  `date_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_modified` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `service-providers`
+--
+
+INSERT INTO `service-providers` (`id`, `name`, `email`, `company`, `phone`, `address`, `services`, `comment`, `logo`, `is_approved`, `date_added`, `date_modified`) VALUES
+(1, 'Vikash', 'vikash@gmail.com', 'Test', '9128283828', '', 'Testing....', 'Test comments', '', 0, '2020-06-03 13:57:39', NULL),
+(3, 'John Doe', 'john@gmail.com', 'John & Co.', '9292929292', 'Address.....', 'Test Services', '', '', 0, '2020-06-07 15:40:46', NULL),
+(4, 'Anna Sthesia', 'ann@gmail.com', 'Anna Corp.', '1212121212', '3489  Todds Lane, San Antonio, Texas, 78205', 'Advertising', '', '', 0, '2020-06-10 03:21:34', NULL),
+(5, 'Paul Molive', 'paul@gmail.com', 'Paul Corp.', '1312121212', '5009  Charmaine Lane, Umbarger, Texas, 79091', 'Film creation and publishing', '', '', 0, '2020-06-10 03:24:43', NULL),
+(6, 'Paige Turner', 'paige@gmail.com', 'Paige Corp.', '839398782', '4755  White River Way, Salt Lake City, Utah, 8416', 'Content writing, SEO analysis', '', '', 0, '2020-06-10 03:25:50', NULL),
+(7, 'Nick R. Bocker', 'nick@gmail.com', 'Nick Corp.', '8373848382', '4986  Lynn Ogden Lane, Westbury, Texas, 77708', 'Financial services and sales', '', '', 0, '2020-06-10 03:27:08', NULL),
+(8, 'Buck Kinnear', 'buck@gmail.com', 'Buck Corp.', '83745757', '4823  West Drive, Buffalo Grove, Illinois, 60089', 'Music', '', '', 0, '2020-06-10 03:28:24', NULL),
+(9, 'Rick O\'Shea', 'rick@gmail.com', 'Rick corp.', '892847483', '104  Pinewood Drive, Chicago, Illinois, 60605', 'Transportation, Shipping', '', '', 0, '2020-06-10 03:29:29', NULL),
+(10, 'John', 'john21@gmail.com', 'John Corp.', '9283847272', 'Illionois, 23834', 'SEO, Content Writing', '', '', 0, '2020-06-10 05:52:28', NULL);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `service-providers`
+--
+ALTER TABLE `service-providers`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `service-providers`
+--
+ALTER TABLE `service-providers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;

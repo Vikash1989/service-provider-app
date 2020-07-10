@@ -1,0 +1,59 @@
+CRITICAL - 2020-05-31 22:32:16 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /Applications/MAMP/htdocs/ci-news/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-31 22:40:07 --> Class 'App\Models\ServiceProviders' not found
+#0 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-31 22:41:09 --> Class 'App\Controllers\ServiceProviders' not found
+#0 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-31 22:41:35 --> Class 'App\Models\ServiceProviders' not found
+#0 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-31 23:05:58 --> Class 'App\Controllers\ServiceProviders' not found
+#0 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-31 23:08:22 --> Class 'App\Controllers\ServiceProviders' not found
+#0 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-31 23:10:03 --> Class 'App\Controllers\ServiceProviders' not found
+#0 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-31 23:10:22 --> Class 'App\Controllers\ServiceProviders' not found
+#0 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-31 23:10:46 --> Undefined variable: validation
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 24, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

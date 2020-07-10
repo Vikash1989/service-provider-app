@@ -1,0 +1,53 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, thead th {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+.bg-main {
+	background-color: #eeeeee;
+}
+
+.main-title {
+	font-size: 3rem;
+	margin-bottom: 0.4em;
+}
+
+.main-subtitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	margin-bottom: 0.6em;
+}
+
+.form-title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 300;
+	margin-bottom: 0.6em;
+}
+
+::placeholder {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #9a9a9a !important;
+    font-style: italic;
+}
+
+.main-logo img {
+	max-width: 150px;
+}
+
+.btn-main {
+	background-color: #e51c48;
+    border-color: #e51c48;
+    color: #fff;
+}
+
+.btn-main:hover, .btn-main:focus, .btn-main:active {
+    background-color: #d20835;
+    border-color: #e51c48;
+    color: #fff;
+}

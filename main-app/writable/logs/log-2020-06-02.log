@@ -1,0 +1,127 @@
+CRITICAL - 2020-06-02 13:28:52 --> Undefined variable: session
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 9, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(12): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-02 13:30:24 --> Undefined variable: config
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 31, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-02 13:32:30 --> syntax error, unexpected '}'
+#0 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(12): view('home', Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:01:08 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:02:21 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:09:03 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:10:42 --> Argument 1 passed to CodeIgniter\Session\Session::getFlashdata() must be of the type string or null, array given, called in /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php on line 33
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(33): CodeIgniter\Session\Session->getFlashdata(Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-02 22:10:52 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:11:56 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:12:36 --> Argument 1 passed to CodeIgniter\Session\Session::getFlashdata() must be of the type string or null, array given, called in /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php on line 33
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(33): CodeIgniter\Session\Session->getFlashdata(Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-02 22:13:18 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:13:38 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:15:01 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:16:03 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:16:38 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-02 22:18:48 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news/system/Session/Session.php(728): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 728, Array)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Session\Session->markAsFlashdata(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->process()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

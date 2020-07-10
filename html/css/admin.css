@@ -1,0 +1,108 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, thead th {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+/*a.nav-link {
+	color: #fff;
+}
+
+a.nav-link:hover {
+	color: #d2d2d2;
+}*/
+
+.data-table td {
+    font-size: 15px;
+}
+
+.icon {
+	color: #888;
+    font-size: 1.2em;
+}
+
+.icon:hover {
+	color: #e51c48;
+	text-decoration: none;
+}
+
+.status{
+	font-size: 9px;
+	display: block;
+}
+
+.status-icon {
+	font-size: 1.2em;
+}
+
+.status-icon .approved {
+	color: #00bd00;
+}
+
+.status-icon .rejected {
+	color: #f70000;
+}
+
+.status-icon .no-action {
+	color: #676767;
+}
+
+.bg-main {
+	background-color: #eeeeee;
+}
+
+.login-form {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.btn-main {
+	background-color: #e51c48;
+    border-color: #e51c48;
+    color: #fff;
+}
+
+.btn-main:hover, .btn-main:focus, .btn-main:active {
+    background-color: #d20835;
+    border-color: #e51c48;
+    color: #fff;
+}
+
+.main-logo img {
+    max-width: 150px;
+}
+
+.personal-info .title {
+    font-weight: bold;
+}
+
+.doc-link {
+	overflow-wrap: break-word;
+}
+
+.doc-link:last-child {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.dlt-icon {
+    color: #f16363;
+}
+
+.dlt-icon:hover {
+    color: #ff0000;
+}
+
+@media only screen and (min-width: 768px) {
+	.personal-info {
+		border-right: 1px solid #eaeaea;
+	}
+}

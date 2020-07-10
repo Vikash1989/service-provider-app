@@ -1,0 +1,10 @@
+CRITICAL - 2020-06-11 13:06:39 --> Undefined variable: error
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/admin/login.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 8, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('admin/login', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Admin.php(11): view('admin/login', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Admin->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,50 @@
+CRITICAL - 2020-06-07 06:12:21 --> Undefined variable: session
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 16, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(12): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-07 06:13:02 --> Undefined property: CodeIgniter\View\View::$session
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 16, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(12): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-07 08:26:27 --> Undefined index: errors
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 17, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(12): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-07 08:27:03 --> Undefined index: errors
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 17, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(12): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-07 08:27:45 --> Undefined variable: session
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 96, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(12): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

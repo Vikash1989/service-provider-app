@@ -1,0 +1,411 @@
+CRITICAL - 2020-06-30 06:14:55 --> Undefined property: stdClass::$city
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 24, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 06:37:42 --> Undefined variable: services_list
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 06:38:38 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(55): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-30 06:43:36 --> Object of class App\Models\ServiceProvidersModel could not be converted to string
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/Applications/M...', 40, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 06:45:28 --> syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 06:46:45 --> Invalid argument supplied for foreach()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 06:47:51 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 52, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 06:48:04 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 52, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 06:48:31 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 52, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 06:51:47 --> Call to a member function findAll() on string
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 06:55:33 --> Call to a member function findAll() on null
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 06:55:43 --> Call to a member function findAll() on string
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:02:57 --> syntax error, unexpected '.'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:03:30 --> syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:03:51 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:04:22 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:04:42 --> syntax error, unexpected '.'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:05:19 --> Object of class App\Models\ServiceProvidersModel could not be converted to string
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/Applications/M...', 40, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 07:07:40 --> Call to undefined function App\Controllers\orLike()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:08:43 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:09:41 --> Call to undefined function App\Controllers\orLike()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:10:31 --> syntax error, unexpected '$n' (T_VARIABLE)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:11:28 --> syntax error, unexpected '}'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:13:28 --> Call to a member function findAll() on string
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:14:19 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:14:36 --> Call to a member function findAll() on string
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:14:51 --> syntax error, unexpected end of file
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:15:16 --> syntax error, unexpected end of file
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:19:13 --> Call to a member function findAll() on string
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:22:08 --> Call to a member function findAll() on null
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:25:15 --> syntax error, unexpected end of file
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 07:37:07 --> Undefined variable: db
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 07:37:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1042% or state LIKE %Delhi%  or city LIKE %New Delhi%  or services_list LIKE %W' at line 1
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT * FROM `...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(63): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:38:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1042% or state LIKE %Delhi%  or city LIKE %New Delhi%  or services_list LIKE %W' at line 1
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT * FROM `...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(63): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:38:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1042% or state LIKE %Delhi%  or city LIKE %New Delhi%  or services_list LIKE %W' at line 1
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT * FROM `...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(63): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 07:57:22 --> Unknown column 'zipcode' in 'where clause'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT * FROM `...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(63): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 08:03:07 --> Call to undefined method mysqli_result::getResult()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 08:03:34 --> Call to undefined method mysqli_result::getResultArray()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 08:03:50 --> Call to undefined method mysqli_result::getResultArray()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 08:18:37 --> Call to a member function getRowArray() on string
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-30 08:28:50 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->orLike('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(34): CodeIgniter\Model->__call('orLike', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-30 08:31:51 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php on line 37
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(37): CodeIgniter\Database\BaseBuilder->orLike('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 08:49:31 --> syntax error, unexpected ','
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-30 08:50:16 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 48, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(48): array_unique(Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-30 09:06:13 --> Invalid argument supplied for foreach()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/M...', 51, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 09:07:58 --> Unknown column 'service' in 'where clause'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(52): CodeIgniter\Model->findAll()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#7 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#8 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-30 15:55:35 --> Undefined property: stdClass::$services
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 15:57:16 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(42): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-30 16:01:03 --> Undefined variable: servicesArray
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 31, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-30 23:34:41 --> Operand should contain 1 column(s)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(23): CodeIgniter\Model->findAll()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#7 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#8 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-30 23:55:14 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(12): json_decode(Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-30 23:56:46 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

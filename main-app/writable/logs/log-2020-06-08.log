@@ -1,0 +1,7 @@
+CRITICAL - 2020-06-08 14:19:45 --> Argument 2 passed to view() must be of the type array, string given, called in /Applications/MAMP/htdocs/ci-news/app/Controllers/Admin.php on line 9
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Admin.php(9): view('admin/template/...', 'Login')
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Admin->index()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

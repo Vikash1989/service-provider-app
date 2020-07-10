@@ -1,0 +1,22 @@
+CRITICAL - 2020-06-16 00:25:39 --> Attempt to assign property 'is_approved' of non-object
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Dashboard.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Dashboard->reject('7')
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 00:27:02 --> Attempt to assign property 'is_approved' of non-object
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Dashboard.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Dashboard->reject('7')
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 00:33:59 --> There is no data to update.
+#0 /Applications/MAMP/htdocs/ci-news/system/Model.php(809): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Dashboard.php(57): CodeIgniter\Model->update(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Dashboard->reject('7')
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

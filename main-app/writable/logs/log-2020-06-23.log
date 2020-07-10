@@ -1,0 +1,75 @@
+CRITICAL - 2020-06-23 01:59:56 --> Call to a member function isValid() on array
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->processAdditionalInformation('7')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 02:08:52 --> Call to a member function isValid() on null
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->processAdditionalInformation('7')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 02:09:05 --> Call to a member function isValid() on null
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->processAdditionalInformation('7')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 02:10:49 --> Call to a member function isValid() on null
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->processAdditionalInformation('7')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 06:45:34 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Common.php(1087): CodeIgniter\View\View->render('admin/user', Array, true)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Dashboard.php(51): view('admin/user', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->user('7')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-23 06:59:27 --> Undefined variable: index
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Dashboard.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 155, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->processAdditionalInformation('7')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-23 23:18:56 --> Undefined variable: serviceprovider
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Views/admin/edit.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 25, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Common.php(1087): CodeIgniter\View\View->render('admin/edit', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Dashboard.php(68): view('admin/edit', Array)
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->edit('4')
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 23:31:55 --> syntax error, unexpected 'if' (T_IF)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Common.php(1087): CodeIgniter\View\View->render('admin/edit', Array, true)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Dashboard.php(68): view('admin/edit', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->edit('4')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-23 23:32:16 --> Use of undefined constant serviceprovider - assumed 'serviceprovider' (this will throw an Error in a future version of PHP)
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Views/admin/edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Applications/M...', 31, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Common.php(1087): CodeIgniter\View\View->render('admin/edit', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Dashboard.php(68): view('admin/edit', Array)
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->edit('4')
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 23:55:08 --> syntax error, unexpected 'address' (T_STRING), expecting ']'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Common.php(1087): CodeIgniter\View\View->render('admin/edit', Array, true)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Dashboard.php(68): view('admin/edit', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Dashboard->edit('4')
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,577 @@
+CRITICAL - 2020-06-29 04:13:20 --> Cannot call constructor
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(886): App\Controllers\Search->__construct()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-29 06:03:28 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::issAJAX()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-29 06:03:37 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::issAJAX()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-29 06:37:32 --> Undefined variable: request
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 06:38:24 --> Undefined variable: request
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 06:42:26 --> Undefined variable: json
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 06:42:31 --> Undefined variable: json
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 06:43:42 --> Undefined index: zipcode
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 06:52:15 --> Undefined index: zipcode
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 06:53:00 --> Undefined property: App\Controllers\Search::$input
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 06:53:06 --> Undefined property: App\Controllers\Search::$input
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 07:00:03 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(13): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:19:22 --> Undefined variable: zipcode
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 07:26:01 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:26:58 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:27:15 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:28:20 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:29:02 --> Undefined variable: request
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 07:29:28 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:30:05 --> syntax error, unexpected '$model' (T_VARIABLE), expecting ';'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 07:31:19 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::isPOST()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-29 07:32:36 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:32:51 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:32:56 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:33:03 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:33:05 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:33:11 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:33:14 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:34:38 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:35:45 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(16): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:36:04 --> Undefined index: zipcode
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 07:36:52 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::method()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-29 07:38:46 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:40:39 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:42:26 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:44:55 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(17): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:46:24 --> Undefined property: App\Controllers\Search::$input
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 07:46:30 --> Undefined property: App\Controllers\Search::$input
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 07:47:06 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:52:33 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:53:42 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:55:13 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:57:22 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 07:57:49 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:00:26 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(18): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:02:02 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:03:09 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:03:24 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:03:30 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:03:34 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:03:37 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:03:58 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:04:56 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:07:07 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:08:41 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:10:28 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:10:30 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:11:09 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:11:18 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(15): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 08:19:40 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::isPOST()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-29 08:22:51 --> Undefined index: zipcode
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 08:23:12 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 08:31:42 --> Undefined variable: request
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 08:40:57 --> Undefined index: zipcode
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 09:01:28 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(13): json_decode(Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 09:04:24 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 09:04:51 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(12): json_decode(Array, true)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 09:05:08 --> Invalid argument supplied for foreach()
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/HTTP/Request.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/M...', 371, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/HTTP/IncomingRequest.php(411): CodeIgniter\HTTP\Request->fetchGlobal('post', NULL, 516, NULL)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Debug/Toolbar.php(165): CodeIgniter\HTTP\IncomingRequest->getPost()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Debug/Toolbar.php(356): CodeIgniter\Debug\Toolbar->run(1593439508.5225, 0.0355, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Filters/DebugToolbar.php(75): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Filters/Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#6 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(418): CodeIgniter\Filters\Filters->run('fetch', 'after')
+#7 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-29 09:34:11 --> Undefined index: zipcode
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 17, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 10:13:15 --> Undefined property: App\Controllers\Search::$input
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 10:35:06 --> Undefined variable: request
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 12:37:14 --> Trying to get property 'zipcode' of non-object
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 22, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 12:37:25 --> Illegal string offset 'zipcode'
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Applications/M...', 22, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 14:28:03 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->like('address', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(26): CodeIgniter\Model->__call('like', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 14:31:53 --> Undefined variable: services
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 25, Array)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 14:34:40 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php on line 1716
+#0 /Applications/MAMP/htdocs/ci-news-new/main-app/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->orLike('services', NULL)
+#1 /Applications/MAMP/htdocs/ci-news-new/main-app/app/Controllers/Search.php(27): CodeIgniter\Model->__call('orLike', Array)
+#2 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(914): App\Controllers\Search->index()
+#3 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 /Applications/MAMP/htdocs/ci-news-new/main-app/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news-new/html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

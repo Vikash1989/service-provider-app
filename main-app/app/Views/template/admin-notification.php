@@ -1,0 +1,1 @@
+<p>You have received a new service provider interest form. Please log into BSN admin portal to check the details and take action.</p>

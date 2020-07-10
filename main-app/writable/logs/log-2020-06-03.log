@@ -1,0 +1,173 @@
+CRITICAL - 2020-06-03 07:14:52 --> Undefined variable: request
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-03 07:15:54 --> Undefined variable: request
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-03 07:15:55 --> Undefined variable: request
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-03 07:25:49 --> Illegal string offset 'name'
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Applications/M...', 23, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(27): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 08:01:10 --> Allowed fields must be specified for model: App\Models\ServiceProvidersModel
+#0 /Applications/MAMP/htdocs/ci-news/system/Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Serv...')
+#1 /Applications/MAMP/htdocs/ci-news/system/Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Model->save(Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 08:03:00 --> Column 'name' cannot be null
+#0 /Applications/MAMP/htdocs/ci-news/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `se...')
+#1 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 /Applications/MAMP/htdocs/ci-news/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 /Applications/MAMP/htdocs/ci-news/system/Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/MAMP/htdocs/ci-news/system/Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Model->save(Array)
+#7 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#8 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-03 08:03:24 --> Column 'name' cannot be null
+#0 /Applications/MAMP/htdocs/ci-news/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `se...')
+#1 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 /Applications/MAMP/htdocs/ci-news/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 /Applications/MAMP/htdocs/ci-news/system/Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/MAMP/htdocs/ci-news/system/Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Model->save(Array)
+#7 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#8 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-03 08:03:38 --> Column 'name' cannot be null
+#0 /Applications/MAMP/htdocs/ci-news/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `se...')
+#1 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 /Applications/MAMP/htdocs/ci-news/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 /Applications/MAMP/htdocs/ci-news/system/Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/MAMP/htdocs/ci-news/system/Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Model->save(Array)
+#7 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#8 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-03 08:03:40 --> Column 'name' cannot be null
+#0 /Applications/MAMP/htdocs/ci-news/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `se...')
+#1 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 /Applications/MAMP/htdocs/ci-news/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 /Applications/MAMP/htdocs/ci-news/system/Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/MAMP/htdocs/ci-news/system/Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Model->save(Array)
+#7 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#8 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-03 08:05:21 --> Column 'name' cannot be null
+#0 /Applications/MAMP/htdocs/ci-news/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `se...')
+#1 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 /Applications/MAMP/htdocs/ci-news/system/Database/BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 /Applications/MAMP/htdocs/ci-news/system/Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/MAMP/htdocs/ci-news/system/Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(32): CodeIgniter\Model->save(Array)
+#7 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#8 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-03 08:14:42 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::with() must be of the type string, array given, called in /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php on line 24
+#0 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(24): CodeIgniter\HTTP\RedirectResponse->with(Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-03 08:21:46 --> syntax error, unexpected ';', expecting ')'
+#0 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#1 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(39): view('home', Array)
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 08:22:13 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-03 08:22:32 --> Undefined variable: session
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(39): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 08:23:12 --> Undefined variable: session
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(40): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 08:23:14 --> Undefined variable: session
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(40): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 08:34:46 --> Undefined index: name
+#0 /Applications/MAMP/htdocs/ci-news/app/Views/home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 24, Array)
+#1 /Applications/MAMP/htdocs/ci-news/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#3 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(13): view('home', Array)
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 09:14:48 --> Invalid file: success.php
+#0 /Applications/MAMP/htdocs/ci-news/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('success.php')
+#1 /Applications/MAMP/htdocs/ci-news/system/Common.php(1087): CodeIgniter\View\View->render('success', Array, true)
+#2 /Applications/MAMP/htdocs/ci-news/app/Controllers/Home.php(51): view('success', Array)
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(914): App\Controllers\Home->submitted()
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

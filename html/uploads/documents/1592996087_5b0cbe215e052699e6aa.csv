@@ -1,0 +1,380 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:3306
+-- Generation Time: Mar 12, 2019 at 11:55 AM
+-- Server version: 5.7.23
+-- PHP Version: 7.2.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `lexpro`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admins`
+--
+
+CREATE TABLE `admins` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `admins`
+--
+
+INSERT INTO `admins` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Admin', 'admin@gmail.com', '$2y$10$TZX8kujL7/TV1TWqE6WqKuvml4vW2Qknj.rQSPIvj.ne.v0vmeCSG', 'XeFmbavrVuUeaVtwsbbBXwrZmeEIaR9AkIk1QGsYAMn3BgM8Y3fJsxCn2yma', '2019-02-02 04:28:00', '2019-02-03 03:22:56');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `forms`
+--
+
+CREATE TABLE `forms` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `state_id` int(10) UNSIGNED DEFAULT NULL,
+  `forms_category_id` int(10) UNSIGNED DEFAULT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `status` tinyint(4) NOT NULL DEFAULT '0',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `layout` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'one-page'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `forms`
+--
+
+INSERT INTO `forms` (`id`, `state_id`, `forms_category_id`, `title`, `status`, `created_at`, `updated_at`, `layout`) VALUES
+(1, 88, 5, 'Form #1', 0, '2019-02-14 06:26:03', '2019-02-14 06:26:03', 'one-page'),
+(4, 88, 5, 'Form #1', 0, '2019-02-14 06:32:47', '2019-02-14 06:32:47', 'one-page'),
+(5, 88, 5, 'Form #1', 0, '2019-02-14 06:35:26', '2019-02-14 06:35:26', 'one-page'),
+(6, 88, 5, 'Form #2', 0, '2019-02-14 06:35:49', '2019-03-12 02:42:18', 'multi-page'),
+(7, 89, 5, 'Form #2', 0, '2019-02-14 06:48:36', '2019-02-14 06:48:36', 'one-page'),
+(8, 89, 5, 'New Form', 0, '2019-02-14 09:35:50', '2019-02-14 09:35:50', 'one-page'),
+(9, 90, 5, 'Testing', 0, '2019-02-15 06:06:30', '2019-03-12 02:37:36', 'multi-page');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `form_categories`
+--
+
+CREATE TABLE `form_categories` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `description` text COLLATE utf8mb4_unicode_ci,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `form_categories`
+--
+
+INSERT INTO `form_categories` (`id`, `name`, `description`, `created_at`, `updated_at`) VALUES
+(5, 'Married With Children', NULL, '2019-02-14 04:36:40', '2019-02-14 04:36:40');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `form_fields`
+--
+
+CREATE TABLE `form_fields` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `form_id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `description` text COLLATE utf8mb4_unicode_ci,
+  `type` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'textbox',
+  `options` text COLLATE utf8mb4_unicode_ci,
+  `position` int(10) UNSIGNED NOT NULL,
+  `shortcode` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `required` tinyint(4) NOT NULL DEFAULT '0',
+  `form_break` tinyint(4) NOT NULL DEFAULT '0',
+  `form_break_title` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `form_fields`
+--
+
+INSERT INTO `form_fields` (`id`, `form_id`, `title`, `description`, `type`, `options`, `position`, `shortcode`, `required`, `form_break`, `form_break_title`, `created_at`, `updated_at`) VALUES
+(34, 9, 'Field #1', NULL, 'textbox', NULL, 5, '9_k853k7hm', 1, 0, NULL, '2019-02-24 03:41:20', '2019-03-12 04:21:21'),
+(35, 9, 'Field #2', NULL, 'date', NULL, 2, '9_95sdqk8h', 1, 1, NULL, '2019-02-24 03:41:32', '2019-03-12 04:18:44'),
+(39, 9, 'Field #6', NULL, 'textbox', NULL, 3, '9_e1ljqvxd', 0, 0, NULL, '2019-02-24 15:09:27', '2019-03-12 04:21:21'),
+(40, 9, 'Field #7', NULL, 'select', '[\"SL1\",\"SL2\"]', 7, '9_4qvm1lp3', 1, 1, NULL, '2019-02-24 15:09:45', '2019-03-12 04:21:21'),
+(44, 9, 'Field #9', NULL, 'radio', '[\"r91\",\"r92\"]', 1, '9_7xwaw0kx', 1, 0, NULL, '2019-02-26 07:28:42', '2019-03-12 04:18:44'),
+(45, 9, 'Field #10', NULL, 'textbox', NULL, 4, '9_n1nj5ud9', 1, 0, NULL, '2019-02-26 07:29:17', '2019-03-12 04:21:21'),
+(47, 9, 'new', NULL, 'textbox', NULL, 6, '9_o4jx9il8', 1, 0, NULL, '2019-02-27 03:25:41', '2019-03-12 04:21:21'),
+(48, 9, 'Some field title', 'Test....', 'checkbox', '[\"CH1\",\"CH2\"]', 8, '9_08wfuxde', 1, 1, 'Title #1', '2019-02-27 04:04:02', '2019-03-12 04:18:44'),
+(52, 6, 'F', NULL, 'textbox', NULL, 1, '6_mf2bnmoe', 0, 0, NULL, '2019-03-12 02:42:35', '2019-03-12 02:46:56'),
+(57, 6, 'b', NULL, 'textbox', NULL, 2, '6_nxzfp7sj', 1, 0, NULL, '2019-03-12 04:46:28', '2019-03-12 04:54:10');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `migrations`
+--
+
+CREATE TABLE `migrations` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `migrations`
+--
+
+INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
+(1, '2014_10_12_000000_create_users_table', 1),
+(2, '2014_10_12_100000_create_password_resets_table', 1),
+(3, '2019_02_02_070056_create_admins_table', 2),
+(4, '2019_02_03_201845_create_states_table', 3),
+(6, '2019_02_10_125531_create_form_categories_table', 4),
+(7, '2019_02_12_083229_create_forms_table', 5),
+(8, '2019_02_15_114803_create_form_fields_table', 6),
+(9, '2019_02_27_111443_add_layout_column_to_forms_table', 7),
+(10, '2019_03_04_071245_add_form_break_and_form_break_title_to_form_fields_table', 8);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `password_resets`
+--
+
+CREATE TABLE `password_resets` (
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `token` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `states`
+--
+
+CREATE TABLE `states` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `states`
+--
+
+INSERT INTO `states` (`id`, `name`, `created_at`, `updated_at`) VALUES
+(88, 'Alabama', '2019-02-10 02:48:05', '2019-02-10 02:48:05'),
+(89, 'Alaska', '2019-02-10 02:48:13', '2019-02-10 02:48:13'),
+(90, 'Arizona', '2019-02-10 02:48:17', '2019-02-10 02:48:17'),
+(91, 'Arkansas', '2019-02-10 02:48:37', '2019-02-10 02:48:37'),
+(92, 'California', '2019-02-10 02:48:48', '2019-02-10 02:48:48'),
+(93, 'Colorado', '2019-02-10 02:48:57', '2019-02-10 02:48:57'),
+(94, 'Connecticut', '2019-02-10 02:49:13', '2019-02-10 02:49:13'),
+(95, 'Delaware', '2019-02-10 02:49:23', '2019-02-10 02:49:23'),
+(96, 'Florida', '2019-02-10 02:49:31', '2019-02-10 02:49:31'),
+(97, 'Georgia', '2019-02-10 02:49:46', '2019-02-10 02:49:46'),
+(98, 'Hawaii', '2019-02-10 02:49:53', '2019-02-10 02:49:53'),
+(99, 'Idaho', '2019-02-10 02:50:00', '2019-02-10 02:50:00'),
+(100, 'Illinois', '2019-02-10 02:50:13', '2019-02-10 02:50:13'),
+(101, 'Indiana', '2019-02-10 02:50:20', '2019-02-10 02:50:20'),
+(102, 'Iowa', '2019-02-10 02:50:26', '2019-02-10 02:50:26'),
+(103, 'Kansas', '2019-02-10 02:50:33', '2019-02-10 02:50:33'),
+(104, 'Kentucky', '2019-02-10 02:50:42', '2019-02-10 02:50:42'),
+(105, 'Louisiana', '2019-02-10 02:50:48', '2019-02-10 02:50:48'),
+(106, 'Maine', '2019-02-10 02:50:55', '2019-02-10 02:50:55'),
+(107, 'Maryland', '2019-02-10 02:51:06', '2019-02-10 02:51:06'),
+(108, 'Massachusetts', '2019-02-10 02:51:15', '2019-02-10 02:51:15'),
+(109, 'Michigan', '2019-02-10 02:51:26', '2019-02-10 02:51:26'),
+(110, 'Minnesota', '2019-02-10 02:51:34', '2019-02-10 02:51:34'),
+(111, 'Mississippi', '2019-02-10 02:51:40', '2019-02-10 02:51:40'),
+(112, 'Missouri', '2019-02-10 02:51:51', '2019-02-10 02:51:51'),
+(113, 'Montana', '2019-02-10 02:51:58', '2019-02-10 02:51:58'),
+(114, 'Nebraska', '2019-02-10 02:52:04', '2019-02-10 02:52:04'),
+(115, 'Nevada', '2019-02-10 02:52:11', '2019-02-10 02:52:11'),
+(116, 'New Hampshire', '2019-02-10 02:52:19', '2019-02-10 02:52:19'),
+(117, 'New Jersey', '2019-02-10 02:52:25', '2019-02-10 02:52:25'),
+(118, 'New Mexico', '2019-02-10 02:52:31', '2019-02-10 02:52:31'),
+(119, 'New York', '2019-02-10 02:52:38', '2019-02-10 02:52:38'),
+(120, 'North Carolina', '2019-02-10 02:52:46', '2019-02-10 02:52:46'),
+(121, 'North Dakota', '2019-02-10 02:52:52', '2019-02-10 02:52:52'),
+(122, 'Ohio', '2019-02-10 02:52:58', '2019-02-10 02:52:58'),
+(123, 'Oklahoma', '2019-02-10 02:53:07', '2019-02-10 02:53:07'),
+(124, 'Oregon', '2019-02-10 02:53:14', '2019-02-10 02:53:14'),
+(125, 'Pennsylvania', '2019-02-10 02:53:20', '2019-02-10 02:53:20'),
+(126, 'Rhode Island', '2019-02-10 02:53:26', '2019-02-10 02:53:26'),
+(127, 'South Carolina', '2019-02-10 02:53:33', '2019-02-10 02:53:33'),
+(128, 'South Dakota', '2019-02-10 02:53:41', '2019-02-10 02:53:41'),
+(129, 'Tennessee', '2019-02-10 02:53:48', '2019-02-10 02:53:48'),
+(130, 'Texas', '2019-02-10 02:53:55', '2019-02-10 02:53:55'),
+(131, 'Utah', '2019-02-10 02:54:02', '2019-02-10 02:54:02'),
+(132, 'Vermont', '2019-02-10 02:54:09', '2019-02-10 02:54:09'),
+(133, 'Virginia', '2019-02-10 02:54:16', '2019-02-10 02:54:16'),
+(134, 'Washington', '2019-02-10 02:54:23', '2019-02-10 02:54:23'),
+(135, 'West Virginia', '2019-02-10 02:54:29', '2019-02-10 02:54:29'),
+(136, 'Wisconsin', '2019-02-10 02:54:37', '2019-02-10 02:54:37'),
+(137, 'Wyoming', '2019-02-10 02:54:42', '2019-02-15 03:17:18');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'User', 'user@gmail.com', '$2y$10$LrU6TCI.QxuQgOjiYzgoP.HNp/AQ3mmMJ9QRyDD6Wd.kLhFZ1.4sa', 'P1I43b4V16WkAiHUc1jqp426VEIFFLj4i8oREVN4LqQQ3ESp96sa04dTxXnw', '2019-02-02 06:03:09', '2019-02-02 06:03:09');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `admins`
+--
+ALTER TABLE `admins`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `admins_email_unique` (`email`);
+
+--
+-- Indexes for table `forms`
+--
+ALTER TABLE `forms`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `forms_state_id_foreign` (`state_id`),
+  ADD KEY `forms_forms_category_id_foreign` (`forms_category_id`);
+
+--
+-- Indexes for table `form_categories`
+--
+ALTER TABLE `form_categories`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `form_categories_name_unique` (`name`);
+
+--
+-- Indexes for table `form_fields`
+--
+ALTER TABLE `form_fields`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `form_fields_form_id_foreign` (`form_id`);
+
+--
+-- Indexes for table `migrations`
+--
+ALTER TABLE `migrations`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `password_resets`
+--
+ALTER TABLE `password_resets`
+  ADD KEY `password_resets_email_index` (`email`);
+
+--
+-- Indexes for table `states`
+--
+ALTER TABLE `states`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `states_name_unique` (`name`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `users_email_unique` (`email`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `admins`
+--
+ALTER TABLE `admins`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `forms`
+--
+ALTER TABLE `forms`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT for table `form_categories`
+--
+ALTER TABLE `form_categories`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `form_fields`
+--
+ALTER TABLE `form_fields`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
+
+--
+-- AUTO_INCREMENT for table `migrations`
+--
+ALTER TABLE `migrations`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT for table `states`
+--
+ALTER TABLE `states`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=140;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `forms`
+--
+ALTER TABLE `forms`
+  ADD CONSTRAINT `forms_forms_category_id_foreign` FOREIGN KEY (`forms_category_id`) REFERENCES `form_categories` (`id`),
+  ADD CONSTRAINT `forms_state_id_foreign` FOREIGN KEY (`state_id`) REFERENCES `states` (`id`);
+
+--
+-- Constraints for table `form_fields`
+--
+ALTER TABLE `form_fields`
+  ADD CONSTRAINT `form_fields_form_id_foreign` FOREIGN KEY (`form_id`) REFERENCES `forms` (`id`);

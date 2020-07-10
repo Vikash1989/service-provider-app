@@ -1,0 +1,40 @@
+CRITICAL - 2020-06-10 00:23:14 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 /Applications/MAMP/htdocs/ci-news/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci-news/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-10 00:23:17 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 /Applications/MAMP/htdocs/ci-news/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/1')
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/1')
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-10 00:31:22 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /Applications/MAMP/htdocs/ci-news/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/user/1')
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/user/1')
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-10 00:31:43 --> syntax error, unexpected '}'
+#0 /Applications/MAMP/htdocs/ci-news/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/user/1')
+#1 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/user/1')
+#2 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/MAMP/htdocs/ci-news/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci-news/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-10 09:43:04 --> Declaration of App\Models\AdminModel::validate($email, $password) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-10 09:44:36 --> Declaration of App\Models\AdminModel::validate($email, $password) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-10 09:44:43 --> Declaration of App\Models\AdminModel::validate($email, $password) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
